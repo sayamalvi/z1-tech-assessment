@@ -7,7 +7,7 @@ function Search({ onSearch }) {
   function handleSearch(event) {
     const query = event.target.value;
     setSearchQuery(query);
-    onSearch(query); // Pass search query to parent
+    onSearch(query);
   }
 
   return (

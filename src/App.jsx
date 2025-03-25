@@ -8,7 +8,7 @@ function App() {
     <div className='outer-pokedex'>
       <div className='main-banner'>
         <h1 id="pokedex-heading">
-          <Link to={'/'} className='home-route'>Pokedex</Link>
+          <Link to={'/'} className='home-route'>Mohammed Sayam Alvi - Z1 Tech Assessment (Pokemon App)</Link>
         </h1>
       </div>
       <CustomRoutes />
