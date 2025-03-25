@@ -17,7 +17,7 @@ function PokemonList({ searchQuery }) {
     const response = await axios.get(pokemonListState.pokedexUrl);
 
     const pokemonResults = response.data.results;
-
+    console.log(pokemonResults)
     setPokemonListState((state) => ({
       ...state,
       nextUrl: response.data.next,
